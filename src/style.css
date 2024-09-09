@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(to bottom, rgb(142, 227, 255) 0%, rgba(254, 252, 234, 1) 100%);
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    height: 5vh;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: large;
+    text-align: end;
+    border-bottom: 1px solid #CCC;
+}
+
+.main-container {
+    display: flex;
+}
+
+aside {
+    border-right: 1px solid #CCC;
+    margin-right: 5vh;
+    height: 100vh;
+    width: 25vw;
+    padding-top: 5vh;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#profile-pic {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.content {
+    flex: 1;
+}
+
+.content-block {
+    background-color: #ffffff;
+    border-radius: 20%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
