@@ -1,34 +1,62 @@
-body {
-    background: linear-gradient(to bottom, rgb(142, 227, 255) 0%, rgba(254, 252, 234, 1) 100%);
+* {
     margin: 0;
+    padding: 0;
     font-family: Arial, sans-serif;
+    font-size: 16pt;
+}
+
+body {
+    background-color: white;
+    overflow-x: hidden;
 }
 
 header {
-    height: 5vh;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
+    background-color: black;
+    width: 100%;
+    padding: 3vh 2vw;
     font-size: large;
     text-align: end;
-    border-bottom: 1px solid #CCC;
+    box-sizing: border-box;
+}
+
+header nav a {
+    font-family: 'MuseoModerno', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    font-family: 'MuseoModerno', sans-serif;
+    color: rgb(146, 236, 242);
+    text-decoration: underline;
 }
 
 .main-container {
+    border-color: black;
     display: flex;
 }
 
 aside {
     border-right: 1px solid #CCC;
-    margin-right: 5vh;
     height: 100vh;
-    width: 25vw;
+    width: 25%;
     padding-top: 5vh;
     box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
 }
 
 #profile-pic {
-    width: 100%;
     border-radius: 50%;
+    border-color: black;
+    border-style: groove;
+    height: 35vh;
+}
+
+#profile-pic-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
@@ -37,7 +65,21 @@ aside {
 
 .content-block {
     background-color: #ffffff;
-    border-radius: 20%;
+    border-radius: 10%;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+}
+
+#social-media-cards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+#social-media-cards-container img{
+    height: 7vh;
+    margin: 1vw;
 }
