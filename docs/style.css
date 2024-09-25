@@ -3,6 +3,7 @@
     padding: 0;
     font-family: Arial, sans-serif;
     font-size: 16pt;
+    scroll-behavior: smooth;
 }
 
 body {
