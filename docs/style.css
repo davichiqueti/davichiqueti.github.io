@@ -107,3 +107,9 @@ section.content-block p {
     height: 7vh;
     margin: 1vw;
 }
+
+@media (max-width: 1200px) {
+    aside {
+      display: none;
+    }
+}
