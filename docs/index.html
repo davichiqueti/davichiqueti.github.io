@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Davi Chiqueti | Página Pessoal</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/98603460?v=4">
   </head>
 
   <body>
     <header>
-      <a id="home-button" href="#Sobre" target="_self" rel="section">
-        <img id="home-icon" alt="Home Icon" src="https://img.icons8.com/?size=100&id=2797&format=png&color=FFFFFF">
-      </a>
+      <button id="menu-toggle">≡</button>
       <nav>
         <a href="#Sobre" target="_self" rel="section">Sobre</a>
         <a href="#Tecnologias" target="_self" rel="section">Tecnologias</a>
@@ -20,6 +19,7 @@
     </header>
     <div class="main-container">
       <aside>
+        <h1 id="fullname">Davi Rodrigues Chiqueti</h1>
         <div id="profile-pic-container">
           <img
             id="profile-pic"
@@ -27,6 +27,9 @@
             src="https://media.licdn.com/dms/image/v2/D4D03AQFpZYfAMR5LJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1716328833884?e=1731542400&v=beta&t=5x0_1_V0Ys7p3MpGJ9KKaGXobabk_KfL_WoZBYx7qpI"
           />
         </div>
+        <p id="short-description">
+          Desenvolvedor de Software | Estudante de Bacharelado em Sistemas de Informação na UFSC
+        </p>
         <div id="social-media-cards-container">
           <a href="https://www.linkedin.com/in/davi-chiqueti-5a956a247/" target="_blank">
             <img src="https://cdn2.iconfinder.com/data/icons/social-icons-circular-black/512/linkedin-512.png">
@@ -39,18 +42,81 @@
           </a>
         </div>
       </aside>
-      <div class="content">
+      <div class="content-container">
         <section id="Sobre" class="content-block">
           <h1>Sobre</h1>
+          <p>
+            Meu nome é Davi Rodrigues Chiqueti. Sou natural de Florianópolis, Santa Catarina.
+            Sou um profissional e estudante do ramo da Computação apaixonado por tecnologia, e constantemente em busca de explorar e contribuir para as inovações que moldam o mundo moderno.
+          </p>
+          <p>
+            Minha paixão pela computação e minha incessante curiosidade são os motores que me impulsionam a buscar novos aprendizados e evolução profissional.
+          </p>
         </section>
         <section id="Tecnologias" class="content-block">
           <h1>Tecnologias</h1>
           <p>
-            
+            Sou apaixonado por tecnologia e utilizo uma stack robusta que me permite desenvolver soluções eficientes.
+            <br>Aqui estão as principais ferramentas que utilizo em meu dia a dia profissional:
           </p>
+          <ul class="tech-stack">
+            <li>
+              <strong>Python</strong>: Minha principal linguagem de programação
+            </li>
+            <li>
+              <strong>Docker</strong>: Utilizo Docker para garantir ambientes de desenvolvimento consistentes e escaláveis. Além de faciltiar a criação de aplicações.
+            </li>
+            <li>
+              <strong>Celery</strong>: Biblioteca para processamento distribuído de tarefas.
+            </li>
+            <li>
+              <strong>RabbitMQ</strong>: Serviço de mensageria implementado para gerenciar filas de tarefas.
+            </li>
+            <li>
+              <strong>PostgreSQL</strong>: Banco de dados relacional utilizado para armazenar dados estruturados.
+            </li>
+            <li>
+              <strong>Redis</strong>: Banco de dados em memória, utilizado para leitura e escrita otimizada em grande escala.
+            </li>
+            <li>
+              <strong>FastAPI</strong>: Framework para desenvolvimento de APIs Web de forma ágil e performática.
+            </li>
+            <li>
+              <strong>Git</strong>: Ferramenta de versionamento de código
+            </li>
+          </ul>
+          <p>
+            Além disso, estou aprendendo algumas tecnologias novas durante a graduação e em meu trabalho
+            <br>Sendo essas:
+          </p>
+          <ul class="tech-stack">
+            <li>
+              <strong>Apache Airflow</strong>: Para gerenciamento e monitoramento de workflows
+            </li>
+            <li>
+              <strong>C++</strong>: Linguagem de programação utilizada para o estudo de Estruturas de Dados
+            </li>
+            <li>
+              <strong>HTML & CSS</strong>: Linguagens de marcação e estilização usadas em aulas de Desenvolvimento Web
+            </li>
+          <ul>
         </section>
         <section id="Vida Profissional e Acadêmica" class="content-block">
           <h1>Vida Profissional e Acadêmica</h1>
+          <p>
+            Em 2023 ingressei no curso de bacharelado em Sistemas de Informação pela Universidade Federal de Santa Catarina (UFSC).
+            Iniciando assim, minha jornada no ramo da Ciência da Computação.            
+          </p>
+          <p>
+            Logo no início do curso, para complementar meu aprendizado nas aulas,
+            me tornei membro da Pixel, empresa Júnior dos cursos de Sistemas de Informação e Ciência da Computação da UFSC.
+            Além disso, iniciei um estágio em desenvolvimento Python voltado para a área de dados na Hooklab.
+          </p>
+          <p>
+            Atualmente, atuo como Desenvolvedor de Software Júnior na Hooklab, a mesma empresa em que realizei meu estágio.
+            Na Hooklab, sou responsável pelo desenvolvimento e manutenção de aplicações de dados.
+            Trabalho com fluxos de tarefas distribuídas, focando na extração eficiente de dados e na automação de processos, sempre colaborando em um ambiente ágil.
+          </p>
         </section>
       </div>
     </div>
