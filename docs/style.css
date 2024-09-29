@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: white;
+    background-color: #f7f7f7;
 }
 
 header {
@@ -22,8 +22,6 @@ header {
     font-size: large;
     text-align: end;
     box-sizing: border-box;
-    padding-left: 5vw;
-    padding-right: 5vw;
 }
 
 header nav {
@@ -58,6 +56,7 @@ header nav a:hover {
 }
 
 aside {
+    background-color: #ffffff;
     border-right: 1px solid #CCC;
     height: 100vh;
     width: 25%;
@@ -143,11 +142,16 @@ ul.tech-stack li {
 }
 
 @media (max-width: 1200px) {
+    header {
+        justify-content: center;
+    }
+
     header nav {
         display: flex;
+        text-align: center;
         justify-content: space-between;
         align-items: center;
-        padding: 0 50px;
+        margin-left: 0%;
     }
 
     header nav a {
